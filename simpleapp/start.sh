@@ -1,9 +1,9 @@
 cd /var/www
 
-rm -rf simple-node-server; true
+rm -rf nodejs-main; true
 
-git clone http://github.com/timfpark/simple-nodejs-server simple-nodejs-server
-cd simple-nodejs-server
+git clone http://github.com/andersosthus/nodejs-main nodejs-main
+cd nodejs-main
 npm install
 
 node server.js
